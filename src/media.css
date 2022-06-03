@@ -1,9 +1,18 @@
-@media (min-width: 1100px){
+@media (min-width: 1050px){
 .txt-pos {
     font-size: medium;
 }
 .list-size {
     font-size: medium;
+}
+.img-size1 {
+    margin-top: 45px;
+}
+.img-size2 {
+    margin-top: 40px;
+}
+.forms {
+    margin: 3.5rem 0px 0rem 0px;
 }
 }
 @media (min-width: 720px) {
