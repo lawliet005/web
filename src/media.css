@@ -125,8 +125,7 @@
 @media (max-width: 719px) {
   body {
     margin: 30px 40px 10px;
-    background-size: 100%;
-    /* background-size: cover; */
+    background-size: cover;
     background-attachment: fixed;
     height: 100%;
   }
@@ -284,5 +283,9 @@
   }
   .li-pad-inline1 li {
     margin-top: 6px;
+  }
+  .forms {
+    margin: 1.5rem 0px 0rem 0px;
+    height: 1.8rem;
   }
 }
