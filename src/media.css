@@ -1,0 +1,288 @@
+@media (min-width: 720px) {
+  body {
+    margin: 40px 60px 10px;
+    background-size: 100%;
+  }
+  .parallelogram {
+    width: 22%;
+  }
+  .parallelogram h1 {
+    font-size: 1rem;
+  }
+  .parallelogram-lg h1 {
+    font-size: 1.5rem;
+  }
+  .forms {
+    height: 44px;
+  }
+  .back-txt {
+    margin-bottom: 1rem;
+    transform: skew(-8deg);
+  }
+  .hr {
+    margin: 6rem 0rem 3rem;
+  }
+  .txt-pos {
+    transform: skew(8deg);
+    font-size: small;
+  }
+  .txt-pos1 {
+    font-size: large;
+    transform: skew(8deg);
+  }
+  .txt-pos2 {
+    font-size: medium;
+    transform: skew(8deg);
+  }
+  .txt-pos3 {
+    font-size: medium;
+    transform: skew(8deg);
+  }
+  .figure {
+    margin-left: 25px;
+  }
+  .figure1 {
+    margin-left: 19px;
+  }
+  .ml1 {
+    margin-left: 24px;
+  }
+  .ml {
+    margin-left: 31px;
+  }
+  .ml1-1 {
+    margin-left: 38px;
+  }
+  .ml-1 {
+    margin-left: 43px;
+  }
+  .ml1-2 {
+    margin-left: 29px;
+  }
+  .ml-2 {
+    margin-left: 35px;
+  }
+  .ml1-3 {
+    margin-left: 44px;
+  }
+  .ml-3 {
+    margin-left: 50px;
+  }
+  .parallelogram-lg .sz {
+    font-size: 1rem;
+  }
+  .ln-height {
+    line-height: 25px;
+  }
+  .img-size1 {
+    margin-top: 30px;
+  }
+  .img-size2 {
+    margin-top: 20px;
+  }
+  .img-size {
+    margin-top: 27px;
+  }
+  .hr {
+    margin: 8rem 0rem 5rem;
+  }
+}
+
+@media (min-width: 970px) {
+  .parallelogram h1 {
+    font-size: 1.31rem;
+  }
+  .parallelogram {
+    width: 20%;
+  }
+  .parallelogram-lg h1 {
+    font-size: 3rem;
+  }
+  .forms {
+    height: 0%;
+  }
+
+  .back-txt {
+    margin-bottom: 3rem;
+  }
+  .hr {
+    margin: 8rem 0rem 5rem;
+  }
+  .txt-pos1 {
+    font-size: larger;
+  }
+  .txt-pos2 {
+    font-size: large;
+  }
+  .txt-pos3 {
+    font-size: large;
+  }
+  .parallelogram-lg .sz {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 719px) {
+  body {
+    margin: 30px 40px 10px;
+    background-size: 100%;
+    /* background-size: cover; */
+    background-attachment: fixed;
+    height: 100%;
+  }
+  .parallelogram {
+    width: 96px;
+    font-size: 6px;
+    padding: 3px 8px;
+    margin: 14px 7px 0px 0px;
+  }
+  .parallelogram-lg h1 {
+    font-size: 1.1rem;
+    margin: 19px;
+  }
+  .parallelogram-lg .sz {
+    font-size: 0.9rem;
+  }
+  .txt-pos1 {
+    font-size: medium;
+    transform: skew(3deg);
+  }
+  .txt-pos2 {
+    font-size: small;
+    transform: skew(3deg);
+  }
+  .txt-pos3 {
+    font-size: small;
+    transform: skew(3deg);
+  }
+  .txt-pos {
+    font-size: 0.7rem;
+    transform: skew(3deg);
+  }
+  .back-txt {
+    margin-bottom: 1rem;
+    transform: skew(-3deg);
+  }
+
+  .figure {
+    margin-left: 11px;
+    height: 6px;
+  }
+  .figure1 {
+    margin-left: 7px;
+    height: 10px;
+  }
+  .ml1 {
+    margin-left: 11px;
+  }
+  .ml {
+    margin-left: 15px;
+  }
+  .ml1-1 {
+    margin-left: 15px;
+  }
+  .ml-1 {
+    margin-left: 20px;
+  }
+  .ml1-2 {
+    margin-left: 12px;
+  }
+  .ml-2 {
+    margin-left: 16px;
+  }
+  .ml1-3 {
+    margin-left: 21px;
+  }
+  .ml-3 {
+    margin-left: 26px;
+  }
+  .ln-height {
+    line-height: 18px;
+  }
+  .img-size1 {
+    margin-top: 2rem;
+  }
+  .img-size2 {
+    margin-top: 2rem;
+  }
+  .img-size {
+    margin-top: 32px;
+  }
+  .hr {
+    margin: 6rem 0rem 4rem;
+  }
+  .img-mt {
+    margin-top: 1rem;
+  }
+}
+@media (max-width: 495px) {
+  body {
+    margin: 30px 15px 10px;
+  }
+  .figure {
+    margin-left: 7px;
+  }
+  .figure1 {
+    margin-left: 4px;
+  }
+
+  .parallelogram {
+    width: 96px;
+    font-size: 6px;
+    padding: 3px 5px;
+    border: 2px solid #999999;
+  }
+  .back-txt {
+    margin-bottom: 0rem;
+    transform: skew(-1deg);
+  }
+  .txt-pos1 {
+    transform: skew(1deg);
+  }
+  .txt-pos2 {
+    transform: skew(1deg);
+  }
+  .txt-pos3 {
+    transform: skew(1deg);
+  }
+  .txt-pos {
+    font-size: 0.7rem;
+    transform: skew(1deg);
+  }
+  .parallelogram-lg h1 {
+    font-size: 1rem;
+    margin: 14px;
+  }
+  .parallelogram-lg {
+    border: 3px solid #999999;
+  }
+  .parallelogram-lg .sz {
+    font-size: 0.8rem;
+  }
+  .img-size1 {
+    width: 18%;
+  }
+  .txt-pos2 {
+    margin: 0px 15px 0px 4px;
+  }
+  .txt-pos3 {
+    margin: 0px 15px 0px 3px;
+  }
+  .li-ml {
+    margin: 0px 0px 0px 15px;
+  }
+  .li-pad-inline {
+    padding-inline-start: 5px;
+  }
+  .txt-pos {
+    margin: 0px 2px 0px 8px;
+  }
+
+  .li-pad-inline1 {
+    list-style-type: '-';
+    padding-inline-start: 10px;
+  }
+  .li-pad-inline1 li {
+    margin-top: 6px;
+  }
+}
