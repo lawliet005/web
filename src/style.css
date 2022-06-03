@@ -3,7 +3,7 @@ body {
   font-family: sans-serif, Courier, monospace;
   background-image: url('../image/fondo.jpg');
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   background-attachment: fixed;
 }
 
