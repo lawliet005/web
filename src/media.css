@@ -1,7 +1,6 @@
 @media (min-width: 720px) {
   body {
     margin: 40px 60px 10px;
-    background-size: cover;
   }
   .parallelogram {
     width: 22%;
@@ -125,8 +124,7 @@
 @media (max-width: 719px) {
   body {
     margin: 30px 40px 10px;
-    background-size: cover;
-    background-attachment: fixed;
+
     
   }
   .parallelogram {
