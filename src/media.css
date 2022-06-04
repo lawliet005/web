@@ -140,10 +140,29 @@
 
 @media (max-width: 719px) {
   body {
-    margin: 30px 40px 10px;
-
+    background: url('../image/fondo.jpg') no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
     
+    
+    margin: 30px 40px 10px;
   }
+  body:after{
+      content:"";
+      position:fixed; /* stretch a fixed position to the whole screen */
+      top:0;
+      height:100vh; /* fix for mobile browser address bar appearing disappearing */
+      left:0;
+      right:0;
+      z-index:-1; /* needed to keep in the background */
+      background: url('../image/fondo.jpg') center center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
   .parallelogram {
     width: 96px;
     font-size: 6px;
